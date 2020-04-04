@@ -1,0 +1,139 @@
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe.config
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csprojAssemblyReference.cache
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.Properties.Resources.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.GenerateResource.cache
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.CoreCompileInputs.cache
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.BusquedaDeLibro.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Resultados.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Formulario.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Login.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.BusquedaDeLibroAdm.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Catalogo.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Devoluciones.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Menu.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.ReporteDeArticulos.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Solicitudes.resources
+C:\Users\KVarg\source\repos\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Principal.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe.config
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csprojAssemblyReference.cache
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.BusquedaDeLibroAdm.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Catalogo.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Devoluciones.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Login.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Menu.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Principal.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarLibros.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.ReporteDeArticulos.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Solicitudes.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.BusquedaDeLibro.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Formulario.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Resultados.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.Properties.Resources.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.GenerateResource.cache
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.CoreCompileInputs.cache
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarArticulo.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarPeriodico.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarRevista.resources
+C:\Users\aktkm\Desktop\BibliotecaNacionalProyecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.NoDisponibles.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe.config
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csprojAssemblyReference.cache
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.BusquedaDeLibroAdm.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Catalogo.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Devoluciones.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Login.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Menu.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.NoDisponibles.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarArticulo.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarLibros.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarPeriodico.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarRevista.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.ReporteDeArticulos.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Solicitudes.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.BusquedaDeLibro.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Formulario.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Resultados.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.Properties.Resources.resources
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.GenerateResource.cache
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.CoreCompileInputs.cache
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\KVarg\Desktop\ñaño\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe.config
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.BusquedaDeLibroAdm.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Catalogo.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Devoluciones.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Login.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Menu.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.NoDisponibles.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarArticulo.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarLibros.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarPeriodico.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarRevista.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.ReporteDeArticulos.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Solicitudes.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.BusquedaDeLibro.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Formulario.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Resultados.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\ASUS\OneDrive\Escritorio\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe.config
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csprojAssemblyReference.cache
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.BusquedaDeLibroAdm.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Catalogo.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Devoluciones.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Login.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Menu.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.NoDisponibles.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarArticulo.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarLibros.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarPeriodico.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarRevista.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.ReporteDeArticulos.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Solicitudes.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.BusquedaDeLibro.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Formulario.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Resultados.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.Properties.Resources.resources
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.GenerateResource.cache
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.CoreCompileInputs.cache
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\aktkm\Desktop\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe.config
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\bin\Debug\BibliotecaNacionalProyecto.pdb
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.BusquedaDeLibroAdm.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Catalogo.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Devoluciones.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Login.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Menu.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.NoDisponibles.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarArticulo.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarLibros.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarPeriodico.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.RegistrarRevista.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.ReporteDeArticulos.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazAdministrador.Solicitudes.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.BusquedaDeLibro.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Formulario.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.InterfazUsuario.Resultados.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.exe
+C:\Users\ASUS\OneDrive\Escritorio\Diseño de Aplicaciones\Projecto\BibliotecaNacionalProyecto\obj\Debug\BibliotecaNacionalProyecto.pdb
