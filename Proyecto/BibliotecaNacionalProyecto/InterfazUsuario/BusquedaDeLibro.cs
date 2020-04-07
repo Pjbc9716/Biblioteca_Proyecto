@@ -126,7 +126,7 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
             if (respuesta == DialogResult.Yes)
             {
-                this.Close();
+                Application.Exit();
             }
         }
 
