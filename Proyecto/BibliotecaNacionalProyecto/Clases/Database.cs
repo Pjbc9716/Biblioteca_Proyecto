@@ -77,7 +77,7 @@ public class Database
         else return false;
     }
 
-    public static SqlDataAdapter busquedaAvanzada(String recurso, List<System.Windows.Forms.TextBox> filtros)
+    public static DataSet busquedaAvanzada(String recurso, List<System.Windows.Forms.TextBox> lista)
     {
         SqlConnection conx = new SqlConnection();
         conx = RetornaAcceso();
@@ -86,7 +86,7 @@ public class Database
         {
             case "LIBRO":
                 consulta += "ISBN, AUTOR, TITULO, EDITORIAL FROM " + recurso + " WHERE";
-                foreach (System.Windows.Forms.TextBox i in filtros)
+                foreach (System.Windows.Forms.TextBox i in lista)
                 {
 
                     switch (i.Name)
@@ -95,7 +95,7 @@ public class Database
                             consulta += " ISBN = " + i.Text + " ";
                             break;
                         case "opcion2txt":
-                            if (filtros.Count == 1)
+                            if (lista.Count == 1)
                             {
                                 consulta += " AUTOR = '" + i.Text + "' ";
                             }
@@ -105,7 +105,7 @@ public class Database
                             }
                             break;
                         case "opcion3txt":
-                            if (filtros.Count == 1)
+                            if (lista.Count == 1)
                             {
                                 consulta += " TITULO = " + i.Text + " ";
                             }
@@ -115,7 +115,7 @@ public class Database
                             }
                             break;
                         case "opcion4txt":
-                            if (filtros.Count == 1)
+                            if (lista.Count == 1)
                             {
                                 consulta += " EDITORIAL = '" + i.Text + "' ";
                             }
@@ -131,7 +131,7 @@ public class Database
 
             case "PERIODICO":
                 consulta += "TITULO_PERIODICO, PRENSA , NUMERO_EDICION , FECHA FROM " + recurso + " WHERE";
-                foreach (System.Windows.Forms.TextBox i in filtros)
+                foreach (System.Windows.Forms.TextBox i in lista)
                 {
                     switch (i.Name)
                     {
@@ -139,7 +139,7 @@ public class Database
                             consulta += " TITULO_PERIODICO = " + i.Text + " ";
                             break;
                         case "opcion2txt":
-                            if (filtros.Count == 1)
+                            if (lista.Count == 1)
                             {
                                 consulta += " PRENSA = '" + i.Text + "' ";
                             }
@@ -149,7 +149,7 @@ public class Database
                             }
                             break;
                         case "opcion3txt":
-                            if (filtros.Count == 1)
+                            if (lista.Count == 1)
                             {
                                 consulta += " NUMERO_EDICION = " + i.Text + " ";
                             }
@@ -159,7 +159,7 @@ public class Database
                             }
                             break;
                         case "opcion4txt":
-                            if (filtros.Count == 1)
+                            if (lista.Count == 1)
                             {
                                 consulta += " FECHA = '" + i.Text + "' ";
                             }
@@ -174,7 +174,12 @@ public class Database
                 break;
         }
         Console.WriteLine(consulta);
-        return new SqlDataAdapter(consulta, conx);
+
+        SqlDataAdapter da = new SqlDataAdapter(consulta, conx);
+
+        DataSet ds = new DataSet();
+        da.Fill(ds);
+        return ds;
     }
 
 }

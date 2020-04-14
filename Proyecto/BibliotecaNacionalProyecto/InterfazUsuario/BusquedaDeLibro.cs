@@ -1,8 +1,6 @@
 ﻿using BibliotecaNacionalProyecto.InterfazAdministrador;
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace BibliotecaNacionalProyecto.InterfazUsuario
@@ -128,7 +126,7 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
             if (respuesta == DialogResult.Yes)
             {
-                Application.Exit();
+                this.Close();
             }
         }
 
@@ -259,58 +257,39 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
         private void buscarBtn_Click(object sender, EventArgs e)
         {
-            try
+            listaFiltros = new List<System.Windows.Forms.TextBox>();
+            for (int i = 0; i < this.listaChecks.Count; i++)
             {
-                listaFiltros = new List<System.Windows.Forms.TextBox>();
-                for (int i = 0; i < this.listaChecks.Count; i++)
+                if (listaChecks[i].Checked)
                 {
-                    if (listaChecks[i].Checked)
+                    switch (listaChecks[i].Name.ToString())
                     {
-                        switch (listaChecks[i].Name.ToString())
-                        {
-                            case "checkBox2":
-                                listaFiltros.Add(this.opcion1txt);
-                                break;
-                            case "checkBox3":
-                                listaFiltros.Add(this.opcion2txt);
-                                break;
-                            case "checkBox4":
-                                listaFiltros.Add(this.opcion3txt);
-                                break;
-                            case "checkBox5":
-                                listaFiltros.Add(this.opcion4txt);
-                                break;
-                        }
+                        case "checkBox2":
+                            listaFiltros.Add(this.opcion1txt);
+                            break;
+                        case "checkBox3":
+                            listaFiltros.Add(this.opcion2txt);
+                            break;
+                        case "checkBox4":
+                            listaFiltros.Add(this.opcion3txt);
+                            break;
+                        case "checkBox5":
+                            listaFiltros.Add(this.opcion4txt);
+                            break;
                     }
                 }
-                if (listaFiltros.Count == 0)
-                {
-                    MessageBox.Show("Seleccione y llene un filtro", "Falta información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    DataSet ds = new DataSet();
-                    SqlDataAdapter da = Database.busquedaAvanzada(this.filtrocmb.SelectedItem.ToString().ToUpper(), this.listaFiltros);
-                    da.Fill(ds);
-
-                    if (ds.Tables[0].Rows.Count == 0)
-                    {
-                        MessageBox.Show("No se encontro ningun recurso", "Sin resultados", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    else
-                    {
-                        Resultados res = new Resultados(ds);
-                        this.listaFiltros.Clear();
-                        this.Hide();
-                        res.Show();
-                    }
-                }
-
             }
-            catch (System.Data.SqlClient.SqlException)
+            if (listaFiltros.Count == 0)
             {
-                
-                MessageBox.Show("Hubo problemas con la busqueda.\nIntente nuevamente", "Sin resultados", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Seleccion un filtro", "Falta informacion", MessageBoxButtons.OK);
+            }
+            else
+            {
+                Resultados res = new Resultados(Database.busquedaAvanzada(this.filtrocmb.SelectedItem.ToString().ToUpper(), this.listaFiltros));
+                this.listaFiltros.Clear();
+                this.Hide();
+                res.Show();
+
             }
         }
 
