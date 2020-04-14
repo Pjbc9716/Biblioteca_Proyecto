@@ -9,12 +9,7 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
         public Resultados(DataSet ds)
         {
-            InitializeComponent();
-            dataGridView1.ReadOnly = true; 
-            dataGridView1.DataSource = null;
-            dataGridView1.Refresh();
-            dataGridView1.DataSource = ds.Tables[0];
-
+           
 
 
         }
