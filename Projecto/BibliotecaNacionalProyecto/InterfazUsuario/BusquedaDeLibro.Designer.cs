@@ -207,7 +207,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(177, 142);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(73, 40);
             this.button1.TabIndex = 23;
@@ -218,7 +218,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(277, 142);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(73, 40);
             this.button2.TabIndex = 24;
@@ -229,11 +229,11 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(383, 142);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(73, 40);
             this.button3.TabIndex = 25;
-            this.button3.Text = "Revistas";
+            this.button3.Text = "Revista";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -243,7 +243,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox1.Location = new System.Drawing.Point(177, 193);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(125, 17);
             this.checkBox1.TabIndex = 26;
@@ -259,7 +259,7 @@
             "Periodico",
             "Revista"});
             this.filtrocmb.Location = new System.Drawing.Point(177, 213);
-            this.filtrocmb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.filtrocmb.Margin = new System.Windows.Forms.Padding(2);
             this.filtrocmb.Name = "filtrocmb";
             this.filtrocmb.Size = new System.Drawing.Size(125, 21);
             this.filtrocmb.TabIndex = 27;
@@ -272,7 +272,7 @@
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox2.Location = new System.Drawing.Point(177, 240);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(69, 17);
             this.checkBox2.TabIndex = 29;
@@ -286,7 +286,7 @@
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox3.Location = new System.Drawing.Point(177, 261);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(69, 17);
             this.checkBox3.TabIndex = 30;
@@ -300,7 +300,7 @@
             this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox4.Location = new System.Drawing.Point(177, 282);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(69, 17);
             this.checkBox4.TabIndex = 31;
@@ -314,7 +314,7 @@
             this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox5.Location = new System.Drawing.Point(177, 303);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(69, 17);
             this.checkBox5.TabIndex = 32;
@@ -329,7 +329,7 @@
             this.opcion1txt.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion1txt.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.opcion1txt.Location = new System.Drawing.Point(244, 239);
-            this.opcion1txt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.opcion1txt.Margin = new System.Windows.Forms.Padding(2);
             this.opcion1txt.Name = "opcion1txt";
             this.opcion1txt.Size = new System.Drawing.Size(211, 16);
             this.opcion1txt.TabIndex = 33;
@@ -342,7 +342,7 @@
             this.opcion2txt.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion2txt.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.opcion2txt.Location = new System.Drawing.Point(244, 260);
-            this.opcion2txt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.opcion2txt.Margin = new System.Windows.Forms.Padding(2);
             this.opcion2txt.Name = "opcion2txt";
             this.opcion2txt.Size = new System.Drawing.Size(317, 16);
             this.opcion2txt.TabIndex = 34;
@@ -355,7 +355,7 @@
             this.opcion3txt.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion3txt.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.opcion3txt.Location = new System.Drawing.Point(244, 276);
-            this.opcion3txt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.opcion3txt.Margin = new System.Windows.Forms.Padding(2);
             this.opcion3txt.Name = "opcion3txt";
             this.opcion3txt.Size = new System.Drawing.Size(317, 16);
             this.opcion3txt.TabIndex = 35;
@@ -368,7 +368,7 @@
             this.opcion4txt.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion4txt.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.opcion4txt.Location = new System.Drawing.Point(244, 302);
-            this.opcion4txt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.opcion4txt.Margin = new System.Windows.Forms.Padding(2);
             this.opcion4txt.Name = "opcion4txt";
             this.opcion4txt.Size = new System.Drawing.Size(211, 16);
             this.opcion4txt.TabIndex = 36;
@@ -380,7 +380,7 @@
             this.dateTimePicker.CalendarTitleBackColor = System.Drawing.SystemColors.WindowText;
             this.dateTimePicker.CalendarTrailingForeColor = System.Drawing.SystemColors.WindowText;
             this.dateTimePicker.Location = new System.Drawing.Point(244, 324);
-            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(190, 20);
             this.dateTimePicker.TabIndex = 37;
@@ -388,7 +388,7 @@
             // buscarBtn
             // 
             this.buscarBtn.Location = new System.Drawing.Point(383, 350);
-            this.buscarBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buscarBtn.Margin = new System.Windows.Forms.Padding(2);
             this.buscarBtn.Name = "buscarBtn";
             this.buscarBtn.Size = new System.Drawing.Size(74, 23);
             this.buscarBtn.TabIndex = 38;

@@ -6,7 +6,7 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 {
     public partial class Resultados : Form
     {
-
+        int posicionSeleccionada = -1;
         public Resultados(DataSet ds)
         {
             InitializeComponent();
@@ -40,27 +40,53 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Formulario form = new Formulario();
-            form.Show();
-            this.Hide();
+            if (posicionSeleccionada == -1)
+            {
+                MessageBox.Show("Seleccione un recurso", "Falta de información", MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+            else
+            {
+                DataGridViewRow selectedRow = this.dataGridView1.Rows[posicionSeleccionada];
+                String mensaje = "Esta seguro de solicitar el recurso: \n" + selectedRow.Cells[1].Value.ToString();
+                var respuesta = MessageBox.Show(mensaje, "Confirmacion", MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Information);
+
+                if (respuesta == DialogResult.Yes)
+                {
+                    String[] datosRecurso = new string[4];
+                    for (int i = 0; i < datosRecurso.Length; i++)
+                    {
+                        datosRecurso[i] = selectedRow.Cells[i].Value.ToString();
+                    }
+                    Formulario form = new Formulario(datosRecurso);
+                    form.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    this.identificadortxt.Text = "";
+                }
+            }
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int index = e.RowIndex;
-            DataGridViewRow selectedRow = this.dataGridView1.Rows[index];
-            this.identificadortxt.Text = selectedRow.Cells[0].Value.ToString();
+            posicionSeleccionada = e.RowIndex;
+            DataGridViewRow selectedRow = this.dataGridView1.Rows[posicionSeleccionada];
+            this.identificadortxt.Text = selectedRow.Cells[1].Value.ToString();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void id_solicitud_TextChanged(object sender, EventArgs e)
         {
             
         }
 
+        private void numResultados_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -51,18 +51,31 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(this.button1.Text);
-            Resultados res = new Resultados(Database.busquedaGeneral(this.button1.Text.ToUpper()));
-            this.Hide();
-            res.Show();
+            if (Database.hayRecurusos(this.button1.Text.ToUpper()))
+            {
+                Resultados res = new Resultados(Database.busquedaGeneral(this.button1.Text.ToUpper()));
+                this.Hide();
+                res.Show();
+            }
+            else
+            {
+                MessageBox.Show("Lo sentimos, en este momento no hay " + this.button1.Text.ToUpper() + "S para prestar", "Sin recurso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Resultados res = new Resultados(Database.busquedaGeneral(this.button2.Text.ToUpper()));
-            this.Hide();
-            res.Show();
-
+            if (Database.hayRecurusos(this.button2.Text.ToUpper()))
+            {
+                Resultados res = new Resultados(Database.busquedaGeneral(this.button2.Text.ToUpper()));
+                this.Hide();
+                res.Show();
+            }
+            else
+            {
+                MessageBox.Show("Lo sentimos, en este momento no hay " + this.button2.Text.ToUpper() + "S para prestar", "Sin recurso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -114,8 +127,16 @@ namespace BibliotecaNacionalProyecto.InterfazUsuario
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Opcion No Habilitada");
-
+            if (Database.hayRecurusos(this.button3.Text.ToUpper()))
+            {
+                Resultados res = new Resultados(Database.busquedaGeneral(this.button3.Text.ToUpper()));
+                this.Hide();
+                res.Show();
+            }
+            else
+            {
+                MessageBox.Show("Lo sentimos, en este momento no hay " + this.button3.Text.ToUpper() + "S para prestar", "Sin recurso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void closeBox_Click(object sender, EventArgs e)

@@ -19,25 +19,35 @@ public class Database
         return conexion;
     }
 
+    public static Boolean hayRecurusos(String tipoRecurso)
+    {
+        DataSet ds = new DataSet();
+        SqlDataAdapter da = new SqlDataAdapter("SELECT COUNT(*) AS NUMERO_RECURSOS FROM " + tipoRecurso + " ;", Conexion());
+        da.Fill(ds);
+        Console.WriteLine("RESPUESTA "+ds.Tables[0].Rows[0]["NUMERO_RECURSOS"].ToString());
+        ds.Dispose();
+        return (!ds.Tables[0].Rows[0]["NUMERO_RECURSOS"].ToString().Equals("0"));
+    } 
     public static DataSet busquedaGeneral(String recurso)
     {
-        SqlConnection conexion = Conexion();
         DataSet ds = new DataSet();
         String consulta = "";
         switch (recurso)
         {
             case "LIBRO":
-                consulta = "SELECT ISBN, TITULO, AUTOR, EDITORIAL FROM LIBRO " + recurso + " ORDER BY TITULO";
+                consulta = "SELECT ISBN, TITULO, AUTOR, EDITORIAL FROM  " + recurso + "  WHERE TOTAL_DISPONIBLES > 1 ORDER BY TITULO";
                 break;
             case "PERIODICO":
-                consulta = "SELECT ID_PERIODICO, TITULO_PERIODICO, PRENSA, NUMERO_EDICION, FECHA FROM " + recurso + " ORDER BY ID_PERIODICO";
+                consulta = "SELECT ID_PERIODICO, TITULO_PERIODICO ,PRENSA, NUMERO_EDICION FROM " + recurso + " WHERE TOTAL_DISPONIBLES > 1 ORDER BY TITULO_PERIODICO";
+                break;
+            case "REVISTA":
+                consulta = "SELECT ID_REVISTA, TITULO_REVISTA, NOMBRE_REVISTA,NUMERO_EDICION FROM " + recurso + " WHERE TOTAL_DISPONIBLES > 1 ORDER BY TITULO_REVISTA" ;
                 break;
         }
-        SqlDataAdapter da = new SqlDataAdapter(consulta, conexion);
+        SqlDataAdapter da = new SqlDataAdapter(consulta, Conexion());
         da.Fill(ds);
         return ds;
     }
-
     public static Boolean verificarCredenciales(String ced, String con)
     {
         SqlConnection conx = Conexion();
@@ -46,46 +56,26 @@ public class Database
         DataSet ds = new DataSet();
         da.Fill(ds);
         ds.Dispose();
-        return ((ced == ds.Tables[0].Rows[0]["USERNAME"].ToString()) && (con == ds.Tables[0].Rows[0]["PASSWORD"].ToString()));
-    }
+        if (ds.Tables[0].Rows.Count == 0)
+        {
 
-    public static SqlConnection RetornaAcceso()
-    {
-
-        SqlConnection conecta = new SqlConnection();
-        conecta.ConnectionString = "Data Source=DESKTOP-7B4S146; Initial Catalog='BIBLIOTECA_NACIONAL';Trusted_Connection = True;";
-
-        return conecta;
-    }
-
-    public static Boolean validaNombreLibro(String nombreLibro)
-    {
-        int Resultado = 0;
-        SqlConnection conx = new SqlConnection();
-        conx = RetornaAcceso();
-
-        SqlDataAdapter da = new SqlDataAdapter("SELECT COUNT(AUTOR) as DATA FROM LIBRO WHERE AUTOR='"
-            + nombreLibro + "'", conx);
-
-        DataSet ds = new DataSet();
-
-        da.Fill(ds);
-        Resultado = Int32.Parse(ds.Tables[0].Rows[0]["DATA"].ToString());
-        ds.Dispose();
-
-        if (Resultado >= 1) return true;
-        else return false;
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 
     public static SqlDataAdapter busquedaAvanzada(String recurso, List<System.Windows.Forms.TextBox> filtros)
     {
         SqlConnection conx = new SqlConnection();
-        conx = RetornaAcceso();
+        conx = Conexion();
         String consulta = "SELECT ";
         switch (recurso)
         {
             case "LIBRO":
-                consulta += "ISBN, AUTOR, TITULO, EDITORIAL FROM " + recurso + " WHERE";
+                consulta += "TITULO, AUTOR, ISBN, EDITORIAL FROM " + recurso + " WHERE";
                 foreach (System.Windows.Forms.TextBox i in filtros)
                 {
 
@@ -133,6 +123,7 @@ public class Database
                 consulta += "TITULO_PERIODICO, PRENSA , NUMERO_EDICION , FECHA FROM " + recurso + " WHERE";
                 foreach (System.Windows.Forms.TextBox i in filtros)
                 {
+
                     switch (i.Name)
                     {
                         case "opcion1txt":
